@@ -22,13 +22,13 @@ public class StartupDataInit {
 //        this.collegueRepo.save(new Collegue("v3"));
 //        this.collegueRepo.save(new Collegue("v4"));
     	
-    	this.collegueRepo.save(new Collegue("Neige", "https://i.pinimg.com/originals/39/78/c8/3978c88ee6fe2933568e37e8a8f72061.jpg",0));
-    	this.collegueRepo.save(new Collegue("Plage", "https://www.travelercar.com/wp-content/uploads/2016/04/4a36e314016aa914f203ea6b7d579dc6_large.jpeg",0));
-    	this.collegueRepo.save(new Collegue("Soleil", "http://duobjectif.ca/wp-content/uploads/2016/11/Paysages039.jpg",0));
-    	this.collegueRepo.save(new Collegue("Palmier", "https://fr.cdn.v5.futura-sciences.com/buildsv6/images/mediumoriginal/3/6/7/36703a61ed_nodam_2789-1024x768-82a2e.jpg",0));
-    	this.collegueRepo.save(new Collegue("Moureze", "https://e-metropolitain.fr/wp-content/uploads/2017/04/IMGP1469-1024x686.jpg",0));
-    	this.collegueRepo.save(new Collegue("Pré", "https://www.am-paysage.com/wp-content/uploads/2014/11/paysage1.jpg",0));
-    	this.collegueRepo.save(new Collegue("Chute", "https://sf1.viepratique.fr/wp-content/uploads/sites/5/2017/06/ile-skye-750x410.jpg",0));
+    	this.collegueRepo.save(new Collegue("Arthas", "https://static1.millenium.org/articles/9/17/61/79/@/76607-arthas-final-by-forrestimel-danbugw-article_m-3.png",0));
+    	this.collegueRepo.save(new Collegue("Sylvanas", "https://vignette.wikia.nocookie.net/characterprofile/images/8/84/Sylvanas.jpg/revision/latest?cb=20160306203044",0));
+    	this.collegueRepo.save(new Collegue("Thrall", "https://vignette.wikia.nocookie.net/feldanrp/images/b/b1/Thrall.png/revision/latest?cb=20170920100607&path-prefix=fr",0));
+    	this.collegueRepo.save(new Collegue("Illidan", "https://vignette.wikia.nocookie.net/feldanrp/images/c/cd/Illidanhurlorage.png/revision/latest?cb=20170921154434&path-prefix=fr",0));
+    	this.collegueRepo.save(new Collegue("Garrosh", "https://blizzardwatch.com/wp-content/uploads/2017/07/HotS-Garrosh-Reveal-Header-No-Bars.png",0));
+    	this.collegueRepo.save(new Collegue("Guldan", "https://www.mamytwink.com/upload/news/2017/mai/02/correctif-1er-mai-nerfs-elisande-gul-dan-equilibrage-jcj.jpg",0));
+    	this.collegueRepo.save(new Collegue("Anduin", "https://cdnb.artstation.com/p/assets/images/images/012/847/931/large/eric-braddock-wowx8-eb-anduin-final-artstation.jpg?1536811658",0));
     	
     }
 }
