@@ -6,4 +6,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 public interface CollegueRepo extends JpaRepository<Collegue, Integer> {
 	
 	public Collegue findByPseudo(String pseudo);
+	
+	
 }
