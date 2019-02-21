@@ -5,6 +5,9 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.client.RestTemplate;
+
 @Entity
 public class Collegue {
 
@@ -17,6 +20,8 @@ public class Collegue {
     private String photoUrl;
     
     private Integer score;
+    
+   
 
     public Collegue() { }
 
