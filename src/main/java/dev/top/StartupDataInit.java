@@ -30,7 +30,7 @@ public class StartupDataInit {
     	this.collegueRepo.save(new Collegue("Guldan", "https://www.mamytwink.com/upload/news/2017/mai/02/correctif-1er-mai-nerfs-elisande-gul-dan-equilibrage-jcj.jpg",0));
     	this.collegueRepo.save(new Collegue("Anduin", "https://cdnb.artstation.com/p/assets/images/images/012/847/931/large/eric-braddock-wowx8-eb-anduin-final-artstation.jpg?1536811658",0));
     	this.collegueRepo.save(new Collegue("Varian", "https://i.ytimg.com/vi/HvBcd0pntlg/maxresdefault.jpg",0));
-    	this.collegueRepo.save(new Collegue("Varian", "https://vignette.wikia.nocookie.net/p__/images/c/c8/Vol%27jin.jpg/revision/latest?cb=20150307104025&path-prefix=protagonist",0));
+    	this.collegueRepo.save(new Collegue("Vol'jin", "https://vignette.wikia.nocookie.net/p__/images/c/c8/Vol%27jin.jpg/revision/latest?cb=20150307104025&path-prefix=protagonist",0));
     	
     	
     }
