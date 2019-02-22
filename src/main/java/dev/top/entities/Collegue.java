@@ -33,12 +33,21 @@ public class Collegue {
 		this.score = score;
 	}
 	
+	
+	
 	public Collegue(String pseudo, String photoUrl, Integer score) {
 		super();
 		
 		this.pseudo = pseudo;
 		this.photoUrl = photoUrl;
 		this.score = score;
+	}
+	
+	public Collegue(CollegueApi collegueApi) {
+		
+		this.pseudo = collegueApi.getNom();
+		this.photoUrl = collegueApi.getPhoto();
+		this.score = 0;
 	}
 
 	public Integer getId() {
